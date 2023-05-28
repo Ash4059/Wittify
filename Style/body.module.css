@@ -1,0 +1,19 @@
+.bodyContainer{
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.mainContainer{
+    flex: 2.5;
+}
+
+.playListContainer{
+    flex: 1;
+}
+
+.mainContainer, .playListContainer{
+    height: 100%;
+    overflow: hidden;
+}
