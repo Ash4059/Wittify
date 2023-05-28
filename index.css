@@ -4,3 +4,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.displayFlex{
+    display: flex;
+}
+
+.cursorPointer{
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.headerContainer, .logoContainer{
+    align-items: center;
+}
+
+.headerContainer{
+    justify-content: space-between;
+    max-width: 1360px;
+    margin: auto;
+}
+
+.logoContainer{
+    margin: 10px 36px;
+}
+
+.logoIcon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 16px;
+    padding: 4px 28px 4px 12px;
+    width: 300px;
+}
+
+input:focus{
+    outline: none;
+    border-color: #a2258f;
+    box-shadow: 0 1px 0px 0px #a2258f;
+}
+
+.searchIcon{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    fill: #a2258f;
+}
+
+.listContainer{
+    list-style: none;
+    align-items: center;
+}
+
+.listContainer li{
+    margin: 0px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.listContainer li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.listContainer li svg{
+    width: 24px;
+    height: 24px;
+}
+
+.listContainer li img{
+    width: 40px;
+    height: 40px;
+}
