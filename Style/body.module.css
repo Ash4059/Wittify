@@ -2,7 +2,7 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    margin-top: 40px;
+    background-color: #efefef;
 }
 
 .mainContainer{
@@ -16,4 +16,5 @@
 .mainContainer, .playListContainer{
     height: 100%;
     overflow: hidden;
+    margin-top: 40px;
 }

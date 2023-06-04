@@ -6,7 +6,7 @@ import Style from '../../Style/header.module.css';
 
 const Index = () => {
     return (
-        <div className={"displayFlex " + Style.headerContainer} style={{ width : '100%' }}>
+        <div className={"dF " + Style.headerContainer} style={{ width : '100%' }}>
             <Logo />
             <Searchbar />
             <ListContainer />

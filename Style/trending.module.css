@@ -1,0 +1,25 @@
+.trendingContainer{
+    width: 236px;
+    height: 236px;
+    margin: 20px;
+    aspect-ratio: 1;
+    background-size: 100% 100%;
+    text-align: center;
+    color: #ffffff;
+    transition: all ease-in-out 0.3s;
+}
+
+.trendingContainer:hover{
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.trendingContainer > h3 {
+    margin-top: 8px;
+}
+
+.playIcon{
+    fill: #FFF;
+    font-size: 24px;
+    margin-top: 64px;
+}
